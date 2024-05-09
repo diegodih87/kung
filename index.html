@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+     
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <style>
+         
+*{
+   
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+#Cor{
+ width: 100vw;
+ background: rgb(214,173,51);
+background: linear-gradient(0deg, rgba(214,173,51,1) 8%, rgba(192,58,0,1) 85%, rgba(157,31,1,1) 100%); 
+
+
+}
+
+
+ .inicio{
+   width: 100%;
+   color: #fff;
+ }
+.inicio p{
+  margin: 20px;  
+ }
+
+ .inicio h2{
+   text-align: center;
+   margin-bottom: 20px;
+   padding-top: 20px;
+ }
+
+ /*(sessao furiosos)*/
+
+.flex{
+display: flex;
+gap: 15px;
+}
+
+
+ #furiosos{
+   width: 100vw;
+ }
+ 
+ #texto{
+   margin: 20px;
+ }
+
+ h2{
+   text-align: center;
+ /*margin-left: 50px;*/
+ margin-bottom: 30px;
+ }
+
+ #imagem{
+ width: 60%;
+ height: 300px;
+ border-radius: 20px;
+ margin-left: 20px;
+ padding: 0;
+ }
+
+
+ /* (sessao furiosos)*/
+ button{
+   border-radius: 10px;
+   padding: 15px 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   border: 1px solid #000;
+ }
+
+ .button #button1:hover{
+   transform: scale(1.10);
+   background: #dcfdac;
+   border: 1px solid #fff;
+ }
+ .button #button2:hover{
+   transform: scale(1.10);
+   background: #bafbff;
+   border: 1px solid #fff;
+ }
+ .button #button3:hover{
+   transform: scale(1.10);
+   background: #ffd873;
+   border: 1px solid #fff;
+ }
+ .button #button4:hover{
+   transform: scale(1.10);
+   background: #04a28f;
+   border: 1px solid #fff;
+ }
+ .button #button5:hover{
+   transform: scale(1.10);
+   background: #7295fd;
+   border: 1px solid #fff;
+ }
+
+ #voltar{
+   background: #b9d6d7;
+   border: 1px solid #fff;
+ }
+
+ #voltar:hover{
+   transform: scale(1.05);
+ }
+
+
+
+
+ 
+ 
+   #imgMestre{
+   position: relative;
+ /*nome-animacao,tempo,velocidade,infito,alterna*/
+   animation: flutuar 2s ease-in-out infinite alternate;
+   }
+
+     /* efeito flutuante */
+   @keyframes flutuar{
+     0%{/*estado inicial*/
+       top: 0;
+     }
+     100%{/*esstado final*/
+       top: 15px;
+     }
+   }
+
+
+ 
+#Mestres p{
+    margin: 20px;
+}
+
+#Mestres h1{
+text-align: center;
+}
+
+#Mestres #imgMestre{
+width: 40%;
+height: 300px;
+border-radius: 20px;
+padding: 0;
+margin-left: 30%;
+}
+
+#Mestres .buttonM{
+    text-align: center;
+}
+.buttonM #btnShifu:hover{
+ transform: scale(1.10);
+ background: rgb(100,145,88);
+border: 1px solid #fff;
+color: #fff;
+}
+
+.buttonM #btnOogway:hover{
+ transform: scale(1.10);
+/* background: rgb(4,33,156);*/
+  background: rgb(4,33,156);
+background: linear-gradient(90deg, rgba(4,33,156,1) 3%, rgba(82,189,135,1) 100%);
+border: 1px solid #fff;
+}
+.buttonM #btnPanda:hover{
+ transform: scale(1.10);
+ background: rgb(255,255,255);
+ border: 1px solid #000;
+}
+.buttonM button{
+ width: 90px;
+}
+
+#Mestres .flex{
+ display: flex;
+text-align: center;
+}
+
+
+#Mestres #cor{
+margin-top: -3px;
+}
+.Radio{
+    margin-bottom: -30px;
+   margin-left: 30px;
+ }
+ .Radio input{
+   margin-left: 40px;
+ }
+ 
+
+
+     </style>
+ </head> 
+ <body> 
+  <div id="Cor"> 
+   <div class="inicio"> 
+    <h2>O inicio da historia</h2> 
+    <p>Em um vale pacífico e floreado, chamado Vale da Paz, a harmonia é ameaçada pela presença do temido Tai Lung, um leopardo da neve que busca vingança e poder. O mestre Shifu, um habilidoso treinador de artes marciais, busca desesperadamente um guerreiro para derrotar Tai Lung e mantê-lo longe do Vale. É nesse cenário que conhecemos Po, um desajeitado e atrapalhado panda que sonha em se tornar um mestre de Kung Fu, embora trabalhe na loja de macarrão de seu pai. Por um acaso do destino, Po é escolhido como o lendário Dragão Guerreiro, aquele destinado a se tornar o salvador do Vale. Com um treinamento intenso e a ajuda de seus mestres, os Cinco Furiosos, Po começa a acreditar em si mesmo e em seu potencial. Ele aprende que a verdadeira força vem de dentro, da confiança e do coração. A jornada de Po para se tornar um mestre de Kung Fu não é apenas física, mas também emocional, pois ele precisa superar seus medos e inseguranças para alcançar seu verdadeiro potencial. Com muito humor, ação e lições de vida, Kung Fu Panda nos ensina sobre amizade, superação e autoconhecimento. É uma história inspiradora sobre a jornada de um herói improvável em busca de seu destino e do equilíbrio entre corpo, mente e espírito. Po mostra que não importa de onde você veio, o que importa é quem você escolhe ser e como usa suas habilidades para fazer a diferença no mundo. </p> 
+    <br> 
+   </div> 
+    <div id="furiosos"> 
+    <br> 
+    <h2 id="titleMestre">Os Memoraveis FURIOSOS</h2> 
+    <br> 
+    <div class="flex"> 
+     <img id="imagem" src="5furiosos.png"> 
+     <p id="texto">Cada um dos Cinco Furiosos tem sua própria personalidade e habilidades únicas, contribuindo para a equipe de forma complementar e fortalecendo os laços de amizade e companheirismo. Juntos, eles formam um grupo poderoso e unido, capaz de enfrentar qualquer desafio que surja em seu caminho.</p> 
+    </div> 
+    <br> 
+    <div class="button"> <button id="button1" type="button" onclick="Garca()"> Garça </button>
+    <button id="button2" type="button" onclick="Louva()"> Louva-deus </button>
+    <button id="button3" type="button" onclick="Vibora()"> Vibora </button>
+     <button id="button4" type="button" onclick="Macaco()"> Macaco </button> 
+     <button id="button5" type="button" onclick="Tigresa()"> Tigresa </button>
+      <button id="voltar" type="button" onclick="Voltar()"> Inicio </button> 
+    </div> 
+   </div> <!-- Fimfuriosos--> 
+   <hr> 
+   <div id="Mestres"> 
+    <br> 
+    <h1 id="TitleMs">OS GRANDES MESTRES DA FRANQUIA</h1><br>
+    <h2 id="nomeMs"></h2> 
+    <br> 
+
+    <div class="flex"> 
+       <img id="imgMestre" src="Mestres.jpg"> 
+        
+     <p id="txtMestre"></p> 
+    </div> 
+
+    <br> 
+   
+ <div class="buttonM">
+     <button id="btnShifu" type="button" onclick="Shifu()"> Shifu </button>
+     <button id="btnOogway" type="button" onclick="Oogway()"> Oogway </button>
+     <button id="btnPanda" type="button" onclick="Panda()"> Po</button>
+    <button id="voltar" type="button" onclick="VoltarM()"> Inicio </button> 
+  </div><br>
+
+      <div class="flex">
+ <p id="cor">Cores:</p> 
+      <div class="Radio"> 
+        <input type="radio" onclick="AzulM()" name="cores"> <label for="azul" class="">Azul</label> 
+        <input type="radio" onclick="PretoM()" name="cores"> <label for="vermelhor">Preto</label> 
+        <input type="radio" onclick="AmareloM()" name="cores"> <label for="vermelhor">Amarelo</label> 
+        <input type="radio" onclick="BrancoM()" name="cores"> <label for="vermelhor">Branco</label> 
+    </div>
+  </div>
+    <br>
+   </div> <!--Mestre--> 
+   <script src="menu.js"></script> 
+  </div> 
+ </body>
+ <script>
+     
+
+
+function Garca(){
+  document.getElementById("titleMestre").innerHTML ="Mestre Garça";
+document.getElementById("imagem").src="Garça2.png ";
+
+ 
+
+ document.getElementById("texto").innerHTML ="A Garça, uma exímia lutadora que se destaca por sua elegância e agilidade, também faz parte da equipe dos Cinco Furiosos. Com sua graça e técnica impecável, ela é uma importante peça no treinamento de Po e na batalha contra Tai Lung. Sua sabedoria e serenidade são essenciais para manter a equipe unida e focada em seus objetivos.";
+document.getElementById("furiosos").style.background='#dcfdac';
+}
+ 
+ function Louva(){
+   document.getElementById("titleMestre").innerHTML ="Mestre Louva-deus";
+   document.getElementById("imagem").src="Louva deus.png";
+  document.getElementById("texto").innerHTML ="Um mestre em combate de curta distância, conhecido por sua determinação e coragem. Louva-a-deus é disciplinado e focado, sempre pronto para enfrentar os desafios que surgem no caminho de Po.";
+ document.getElementById("furiosos").style.background='#bafbff';
+ }
+ 
+ function Vibora(){
+   document.getElementById("titleMestre").innerHTML ="Mestre Vibora";
+ 
+document.getElementById("imagem").src="Vibora.png";
+
+
+
+    document.getElementById("texto").innerHTML = "Uma serpente rápida e ágil, com a habilidade de se mover em lugares estreitos e de usar seus movimentos acrobáticos para derrotar os inimigos. Víbora é uma grande amiga de Po, sempre presente para ajudar e aconselhar quando necessário.";
+document.getElementById("furiosos").style.background='#ffd873';
+ 
+ }
+
+
+
+ function Cor(){
+  document.getElementById("").style.background='#32a792';
+ }
+
+
+
+ function Macaco(){
+document.getElementById("titleMestre").innerHTML ="Mestre Macaco";
+   document.getElementById("imagem").src="Macaco.png";
+document.getElementById("texto").innerHTML = "Um macaco ágil e brincalhão, conhecido por sua habilidade em combate e por sua personalidade divertida. Macaco é um importante aliado de Po, sempre disposto a ajudar e a trazer leveza para as situações difíceis.";
+ document.getElementById("furiosos").style.background='#32a792';
+ document.getElementById("imagem").style.width="40%";
+ document.getElementById("imagem").style.height="300px";
+ }
+ 
+ 
+ 
+  function Tigresa(){
+document.getElementById("titleMestre").innerHTML ="Mestre Tigresa";
+
+ document.getElementById("imagem").src="tigresa.png";
+ document.getElementById("texto").innerHTML = "Uma tigresa forte e destemida, líder dos Cinco Furiosos e uma mentora para Po. Ela é obstinada e focada, outrora ressentida por não ser a Guerreira Dragão, agora luta ao lado de Po como uma aliada confiável. Dominando o Estilo Tigre, ela é uma combatente formidável, conhecida por sua força e habilidade em colocar adversários em seus lugares. Sob a orientação de Mestre Shifu, ela aprendeu a controlar seu temperamento e força, tornando-se uma das mestres mais respeitadas do kung fu.";
+ 
+ 
+    document.getElementById("furiosos").style.background='#7295fd';
+ }
+ 
+ 
+ 
+ 
+ function Voltar(){
+   document.getElementById("titleMestre").innerHTML ="Os Memoraveis FURIOSOS";
+  document.getElementById("furiosos").style.background='none';
+ document.getElementById("texto").innerHTML = "Cada um dos Cinco Furiosos tem sua própria personalidade e habilidades únicas, contribuindo para a equipe de forma complementar e fortalecendo os laços de amizade e companheirismo. Juntos, eles formam um grupo poderoso e unido, capaz de enfrentar qualquer desafio que surja em seu caminho."
+
+document.getElementById('imagem'). src="5furiosos.png";
+
+}
+
+
+
+function Shifu(){
+document.getElementById("nomeMs").innerHTML ="Mestre Shifu";
+alert("Mestre Shifu");
+
+document.getElementById('imgMestre').src="Shifu.png";
+
+ document.getElementById("txtMestre").innerHTML ="Mestre Shifu é um personagem central em “Kung Fu Panda”, conhecido por treinar guerreiros poderosos, incluindo os Cinco Furiosos e Po, o Guerreiro Dragão. Embora tenha enfrentado desafios, como o seu ex-aluno Tai Lung, Shifu se redimiu, ensinando Po e superando seu próprio orgulho. Discípulo de Mestre Oogway, Shifu é um mestre altamente qualificado, capaz de se defender apesar de seu tamanho reduzido.";
+  document.getElementById("Mestres").style.background= 'rgb(100,145,88)';
+document.getElementById("Mestres").style.background='linear-gradient(0deg, rgba(100,145,88,1) 18%, rgba(246,232,163,1) 100%)';
+
+}
+
+ 
+ function Oogway(){
+
+     alert("Mestre Oogway");
+   document.getElementById("nomeMs").innerHTML ="Mestre Oogway";
+ 
+ document.getElementById("imgMestre").src="Mestre Oogway.png";
+ document.getElementById("txtMestre").innerHTML ="Mestre Oogway, uma tartaruga idosa e sábia, é uma figura central em “Kung Fu Panda”. Ele fundou o Vale da Paz e atuou como mestre sênior no Palácio de Jade. Oogway não apenas iniciou a lenda do Guerreiro Dragão, mas também moldou a história do kung fu no Vale da Paz com sua sabedoria, conhecimento e experiência. Ele ensinou e inspirou muitos guerreiros antes de sua ascensão ao Reino Espiritual. Sua morte é um momento emocionante e marcante na série, deixando uma lacuna sentida por todos os personagens.";
+  
+ document.getElementById("Mestres").style.background= 'rgb(4,33,156)';
+ document.getElementById("Mestres").style.background='linear-gradient(90deg, rgba(4,33,156,1) 3%, rgba(82,189,135,1) 100%)';
+ 
+ }
+ 
+ function Panda(){
+     alert("Mestre Po");
+   document.getElementById("nomeMs").innerHTML ="Po";
+   document.getElementById("imgMestre").src="Panda.png";
+   document.getElementById("txtMestre").innerHTML = "Po era apenas um simples e desajeitado panda que trabalhava na loja de macarrão do seu pai adotivo, Sr. Ping. Ele sonhava em se tornar um mestre de kung fu, mas nunca tinha sido levado a sério por sua aparência desajeitada e falta de habilidade. Porém, tudo mudou quando o mestre Oogway profetizou que um dragão guerreiro surgiria para derrotar o temível Tai Lung. Po foi escolhido por acidente como o guerreiro destinado a cumprir essa profecia, e foi levado para o Palácio de Jade para treinar com os lendários Cinco Furiosos. Apesar de todos duvidarem de suas habilidades, Po se dedicou ao treinamento com determinação e coragem. Ele descobriu que, apesar de sua aparência desajeitada, possuía uma força interior e uma conexão especial com o kung fu que o tornavam único.";
+  document.getElementById("Mestres").style.background= 'rgb(255,255,255)';
+   document.getElementById("Mestres").style.background='linear-gradient(0deg, rgba(255,255,255,1) 17%, rgba(0,0,0,1) 100%)';
+
+  }
+ 
+  function VoltarM(){
+   document.getElementById("nomeMs").innerHTML ="OS GRANDES MESTRES DA FRANQUIA";
+  document.getElementById("Mestres").style.background='none';
+ document.getElementById("txtMestre").innerHTML = "";
+ document.getElementById("imgMestre").src="Mestres.jpg"; 
+  }
+
+
+function AzulM(){
+  document.getElementById("nomeMs").style.color='rgb(4,33,156)';
+  document.getElementById('txtMestre').style.color='rgb(4,33,156)';
+}
+function PretoM(){
+  document.getElementById("nomeMs").style.color='#000';
+  document.getElementById('txtMestre').style.color='#000';
+ 
+}
+function AmareloM(){
+  document.getElementById("nomeMs").style.color='#f6e8a3';
+  document.getElementById('txtMestre').style.color='#f6e8a3';
+  document.getElementById('TitleMs').style.color='#f6e8a3';
+}
+function BrancoM(){
+  document.getElementById("nomeMs").style.color='#fff';
+  document.getElementById('txtMestre').style.color='#fff';
+  document.getElementById('TitleMs').style.color='#fff';
+}
+
+ </script>
+</html>
+
+
+
+
+ 
+
+
